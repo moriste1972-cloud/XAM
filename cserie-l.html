@@ -1,0 +1,320 @@
+  <!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cours Lycée- Xam Xam</title>
+  <style>
+    body {
+      margin: 3px;
+      font-family: "Inter", sans-serif;
+      background: #fff;
+    }
+
+    header {
+      padding: 20px 10px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 80px;
+    }
+      
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      position: relative;
+    }
+
+    nav a, nav button {
+      color: #000;
+      font-size: 18px;
+      background: none;
+      border: none;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+
+    /* SOUS-MENUS */
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      top: 100%;
+      left: 0;
+      min-width: 180px;
+      z-index: 1000;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li {
+      margin: 5px 0;
+    }
+
+    /* HERO */
+   body {
+  margin: 5px;
+  font-family: "Inter", sans-serif;
+  background: url("WhatsApp Image 2025-11-08 à 23.08.47_e7e6ab5f.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.hero {
+  color: #000;
+  text-align: left;
+  min-height: 90px;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  padding: 80px;
+  background: rgba(255, 255, 255, 0.8); /* légère transparence */
+  border-radius: 20px;
+  margin: 20px;
+}
+
+    .hero h2 {
+      font-size: 24px;
+      max-width: 1000px;
+      background: rgb(255, 255, 255);
+      padding: 20px;
+      border-radius: 20px;
+      line-height: 2;
+    }
+   
+    ul li {
+      background: #f9f9f9;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Style bouton spécial */
+    .btn-math {
+      display: inline-block;
+      background: #cfcbc0;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+     .btn-math:hover {
+      background: #92999f;
+    }
+
+    .btn-dd:hover {
+      background: #92999f;
+    }
+     .btn-dd {
+      display: inline-block;
+      background: #cfcbc0;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-dd.hover {
+      background: #92999f;
+    }
+     .btn-dm {
+      display: inline-block;
+      background: #cfcbc0;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-dm:hover {
+      background: #92999f;
+    }
+     .btn-lc {
+      display: inline-block;
+      background: #000000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-lc:hover {
+      background: #92999f;
+    }
+        .btn-prob {
+      display: inline-block;
+      background: #cfcbc0;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-prob:hover {
+      background: #92999f;
+    }
+     button {
+      margin: 8px; /* espace autour de chaque bouton */
+    }
+    a {
+  margin: 10px;
+    }
+
+   footer {
+  margin-top: auto;
+  background-color: #cfcbc0;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="Black Illustrated School Logo_20250915_033236_0000.png" alt="Logo Xam Xam">
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li>
+          <button>Cours ▾</button>
+          <ul>
+            <li><a href="ccollege.html">Collège</a></li>
+            <li><a href="clycée.html">Lycée</a></li>
+          </ul>
+        </li>
+        <li>
+          <button>Devoirs ▾</button>
+          <ul>
+            <li><a href="evcollege.html">Collège</a></li>
+            <li><a href="evlycee.html">Lycée</a></li>
+          </ul>
+        </li>
+        <li>
+          <button>Bac▾</button>
+          <ul>
+            <li><a href="bac-s.html">Bac Scientifiques</a></li>
+            <li><a href="bac-l.html">Bac Littéraires</a></li>
+            <li><a href="bac-t.html">Bac Technique</a></li> 
+            <li><a href="bac-g.html">Bac Gestion</a></li>
+            <li><a href="bac-etranger.html">Bac Etranger</a></li>
+            </ul>
+        </li>
+        <li>
+          <button>Exercices ▾</button>
+          <ul>
+            <li><a href="eprimaire.html">Primaire</a></li>
+            <li><a href="ecollege.html">Collège</a></li>
+            <li><a href="elycee.html">Lycée</a></li>
+           </ul>
+           <li><a href="informatique.html">Informatique</a></li>
+        </ul>
+      </li>
+    </nav>
+  </header> 
+ </div>
+
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h1>Cours Seconde L</h1>
+    <h2>📖Français</h2>
+      <ul>
+       <a href="15b-Fascicule Français Seconde L et S IA PG-CDC Février 2020 (VF).pdf" class="btn-dd"><strong>📖Fascicule Français Seconde</strong></a>
+       <a href="serie-t.html" class="btn-dm"><strong>🧬Science de la vie de la terre</strong></a>
+      </ul>
+    <h2>🌏Histoire et Geographie</h2>
+      <ul>
+       <a href="Les formules à connaitre(original).pdf" class="btn-dd"><strong>🌏Les formules Geographie</strong></a>
+       <a href="serie-t.html" class="btn-dm"><strong>🧬Science de la vie de la terre</strong></a>
+      </ul>
+    </div>
+  </section>
+   <section class="hero">
+    <div>
+      <h1>Cours Premier L </h1>
+    <h2>📖Français</h2>
+      <ul>
+        <a href="Le Romantisme..pdf" class="btn-math"><strong>📖Le Romantisme.</strong></a>
+        <a href="serie-l.html" class="btn-dd"><strong>🧪Science Physique</strong></a>
+      </ul>
+    <h2>🌏Histoire et Geographie</h2>
+      <ul>
+        <a href="cours-ts1-IA-SEHDIOU.pdf" class="btn-math"><strong>🔢Mathématiques Cours TS1 IA-SEHDIOU</strong></a>
+        <a href="serie-l.html" class="btn-dd"><strong>🧪Science Physique</strong></a>
+      </ul>
+    </div>
+  </section>
+     <section class="hero">
+    <div>
+      <h1>Cours Terminal L </h1>
+    <h2>📖Français</h2>
+      <ul>
+        <a href="Fonctions du roman-1.pdf" class="btn-math"><strong>📖Fonctions du roman</strong></a>
+        <a href="LE ROMAN.pdf" class="btn-dd"><strong>📖LE ROMAN</strong></a>
+        <a href="Le roman, notions à connaître .pdf" class="btn-dm"><strong>📖Le roman, notions à connaître</strong></a>
+        <a href="SYNTHESE DE FRANCAIS-D.pdf" class="btn-dm"><strong>📖SYNTHESE DE FRANCAIS</strong></a>
+      </ul>
+    <h2>🌏Histoire et Geographie</h2>
+      <ul>
+        <a href="fascicule HGHg.pdf" class="btn-math"><strong>🌏FASCICULE TERMINAL HG</strong></a>
+        <a href="Guerre_froide_2.pdf" class="btn-dd"><strong>🌏Guerre froide</strong></a>
+        <a href="Cahier Histoire.pdf" class="btn-dm"><strong>🌏Cahier Histoire</strong></a>
+        <a href="Cahier Geographie.pdf" class="btn-dm"><strong>🌏Cahier Geographie</strong></a>
+        <a href="formule geographie.pdf" class="btn-dm"><strong>🌏formule geographie</strong></a>
+      </ul>
+      <h2>📝Philosophie</h2>
+      <ul>
+        <a href="PHILOSOPHIE ET DOUTE (XAM XAM).pdf" class="btn-math"><strong>📝PHILOSOPHIE ET DOUTE</strong></a>
+        <a href="EPISTEMOLOGIE BANQUE DE TEXTE 2024 M. NDOUR.pdf" class="btn-dd"><strong>📝EPISTEMOLOGIE BANQUE DE TEXTE</strong></a>
+        <a href="COURS NATURE ET CULTURE M. NDOUR 2025.pdf" class="btn-dm"><strong>📝COURS NATURE ET CULTURE</strong></a>
+        <a href="PHILOSOPHIE_SAGESSE_SAVOIR_VIVRE_AU_PIED_DUN_VOLCAN_MICHEL_ONFRAY.pdf" class="btn-dm"><strong>📝PHILOSOPHIE SAGESSE SAVOIR VIVRE AU PIED D'UN VOLCAN MICHEL ONFRAY</strong></a>
+       </ul>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Xam Xam - Créé par Serigne Mor Gueye
+  </footer>
+</body>
+</html>

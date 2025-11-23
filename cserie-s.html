@@ -1,0 +1,318 @@
+  <!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cours Lycée- Xam Xam</title>
+  <style>
+    body {
+      margin: 3px;
+      font-family: "Inter", sans-serif;
+      background: #fff;
+    }
+
+    header {
+      padding: 20px 10px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 80px;
+    }
+      
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      position: relative;
+    }
+
+    nav a, nav button {
+      color: #000;
+      font-size: 18px;
+      background: none;
+      border: none;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+
+    /* SOUS-MENUS */
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      top: 100%;
+      left: 0;
+      min-width: 180px;
+      z-index: 1000;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li {
+      margin: 5px 0;
+    }
+
+    /* HERO */
+   body {
+  margin: 5px;
+  font-family: "Inter", sans-serif;
+  background: url("WhatsApp Image 2025-10-07 à 18.49.10_303cfb0d.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.hero {
+  color: #000;
+  text-align: left;
+  min-height: 90px;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  padding: 80px;
+  background: rgba(255, 255, 255, 0.8); /* légère transparence */
+  border-radius: 20px;
+  margin: 20px;
+}
+
+    .hero h2 {
+      font-size: 24px;
+      max-width: 1000px;
+      background: rgb(255, 255, 255);
+      padding: 20px;
+      border-radius: 20px;
+      line-height: 2;
+    }
+   
+    ul li {
+      background: #f9f9f9;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Style bouton spécial */
+    .btn-math {
+      display: inline-block;
+      background: #000000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+     .btn-math:hover {
+      background: #383f45;
+    }
+
+    .btn-dd:hover {
+      background: #383f45;
+    }
+     .btn-dd {
+      display: inline-block;
+      background: #000000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-dd.hover {
+      background: #383f45;
+    }
+     .btn-dm {
+      display: inline-block;
+      background: #000000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-dm:hover {
+      background: #383f45;
+    }
+     .btn-lc {
+      display: inline-block;
+      background: #000000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-lc:hover {
+      background: #383f45;
+    }
+     button {
+      margin: 8px; /* espace autour de chaque bouton */
+    }
+    a {
+  margin: 10px;
+    }
+  
+    footer {
+  margin-top: auto;
+  background-color: #cfcbc0;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="Black Illustrated School Logo_20250915_033236_0000.png" alt="Logo Xam Xam">
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li>
+          <button>Cours ▾</button>
+          <ul>
+            <li><a href="ccollege.html">Collège</a></li>
+            <li><a href="clycée.html">Lycée</a></li>
+          </ul>
+        </li>
+        <li>
+          <button>Devoirs ▾</button>
+          <ul>
+            <li><a href="evcollege.html">Collège</a></li>
+            <li><a href="evlycee.html">Lycée</a></li>
+          </ul>
+        </li>
+        <li>
+          <button>Bac▾</button>
+          <ul>
+            <li><a href="bac-s.html">Bac Scientifiques</a></li>
+            <li><a href="bac-l.html">Bac Littéraires</a></li>
+            <li><a href="bac-t.html">Bac Technique</a></li> 
+            <li><a href="bac-g.html">Bac Gestion</a></li>
+            <li><a href="bac-etranger.html">Bac Etranger</a></li>
+            </ul>
+        </li>
+        <li>
+          <button>Exercices ▾</button>
+          <ul>
+            <li><a href="eprimaire.html">Primaire</a></li>
+            <li><a href="ecollege.html">Collège</a></li>
+            <li><a href="elycee.html">Lycée</a></li>
+           </ul>
+           <li><a href="informatique.html">Informatique</a></li>
+        </ul>
+      </li>
+    </nav>
+  </header> 
+ </div>
+
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+ <h1>Seconde Science (S)</h1>
+         <h2>🔢Mathématiques</h2>
+      <ul>
+         <a href="?" class="btn-math"><strong>PAS ENCORE DISPONIBLE</strong></a>
+      </ul>
+         <h2>🧪Science Physique</h2>
+      <ul>
+         <a href="?" class="btn-math"><strong>PAS ENCORE DISPONIBLE</strong></a>
+      </ul>
+      <h2>🧬Science de la vie de la terre</h2>
+      <ul>
+        <a href="?" class="btn-math"><strong>PAS ENCORE DISPONIBLE</strong></a>
+      </ul>
+    </div>
+  </section>
+   <section class="hero">
+    <div>
+      <h1>Premier Science Exacte (S1)</h1>
+         <h2>🔢Mathématiques</h2>
+      <ul>
+        <a href="?" class="btn-math"><strong>PAS ENCORE DISPONIBLE</strong></a>
+      </ul>
+    </div>
+  </section>
+   <section class="hero">
+    <div>
+      <h2>Premier Science Experimental (S2)</h2>
+    <h2>🧪Science Physique</h2>
+      <ul>
+         <a href="?" class="btn-math"><strong>PAS ENCORE DISPONIBLE</strong></a>
+       </ul>
+    <h2>🧬Science de la vie et de la terre</h2>
+      <ul>
+        <a href="?" class="btn-math"><strong>PAS ENCORE DISPONIBLE</strong></a>
+      </ul>
+     <h2>🔢Mathématiques</h2>
+      <ul>
+          <a href="?" class="btn-math"><strong>PAS ENCORE DISPONIBLE</strong></a>
+      </ul>   
+    </div>
+  </section>
+     <section class="hero">
+    <div>
+    <h1>Terminal Science Exacte (S1)</h1>
+      <ul>
+      <h2>🔢Mathematique</h2>
+        <a href="?" class="btn-math"><strong>PAS ENCORE DISPONIBLE</strong></a>
+    </div>
+  </section>
+   <section class="hero">
+    <div>
+    <h1>Terminal Science Experimental (S2)</h1>
+      <h2>🧬Science de la vie et de la terre</h2>
+      <ul>
+        <a href="FASCICULE SVT (XAM XAM).pdf" class="btn-math"><strong>🧬 FASCICULE SVT (XAM XAM)</strong></a>
+      </ul>
+      <h2>🔢Mathematique</h2>
+      <ul>
+        <a href="07_Cours_fonctions_sinus_cosinus.pdf" class="btn-math"><strong>🔢COURS FONCTION SINUS COSINUS</strong></a>
+        <a href="0Annale maths S2 VISA BAC .pdf" class="btn-math"><strong>🔢Annale maths S2 VISA BAC</strong></a>
+        <a href="FORMULES  STATISTIQUES S.pdf" class="btn-math"><strong>🔢FORMULES  STATISTIQUES S</strong></a>
+        <a href="Mathématiques_Généralité_sur_les_Fonction_Numériques_d’une_Variable.pdf" class="btn-math"><strong>🔢Généralité sur les Fonction Numériques</strong></a>
+      <h2>🧪Science Physique</h2>
+      <ul>
+        <a href="Fascicule CHIMIE.pdf" class="btn-dd"><strong>🧪Fascicule CHIMIE(TS1/TS2)</strong></a>
+        <a href="FASCICULE PHYSIQUE.pdf" class="btn-dd"><strong>🧪FASCICULE PHYSIQUE(TS1/TS2)</strong></a>
+        <a href="PHYSIQUE Terminale S Tome .pdf" class="btn-dd"><strong>🧪PHYSIQUE TERMINAL S TOME</strong></a>
+        <a href="Physique TS_P8-P15.pdf" class="btn-dd"><strong>🧪COURS PHYSIQUE DE P8 A P15</strong>
+        <a href="Résumé sur la cinétique chimie.pdf" class="btn-lc"><strong>🧪Résumé sur la cinétique chimie</strong>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
