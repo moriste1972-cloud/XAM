@@ -1,0 +1,184 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xam Xam - Plateforme éducative</title>
+  <style>
+    body {
+      margin: 3px;
+      font-family: "Inter", sans-serif;
+      background: #fff;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      position: relative;
+    }
+
+    nav a, nav button {
+      text-decoration: none;
+      color: #000;
+      font-size: 18px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    nav a:hover, nav button:hover {
+      text-decoration: underline;
+    }
+
+    /* Sous-menus */
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      padding: 10px;
+      top: 100%;
+      left: 0;
+      min-width: 100px;
+      z-index: 1000;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li {
+      margin: 5px 0;
+    }
+
+    /* Hero */
+.hero {
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 120px;
+  color: #000;
+  text-align: left;
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+     
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #f5f3f3;
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+   <div class="macbook-pro">
+      <div class="div">
+        <header class="overlap">
+          <img
+            class="black-illustrated"
+            src="Black Illustrated School Logo.png"
+            alt="Logo Xam Xam - Plateforme éducative"
+          />
+          <header>
+    <img src="Black Illustrated School Logo_20250915_033236_0000.png"alt="Logo Xam Xam" >
+        <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li>
+          <button>Cours ▾</button>
+          <ul>
+            <li><a href="ccollege.html">Collège</a></li>
+            <li><a href="clycée.html">Lycée</a></li>
+          </ul>
+        </li>
+        <li>
+          <button>Devoirs ▾</button>
+          <ul>
+            <li><a href="evcollege.html">Collège</a></li>
+            <li><a href="evlycee.html">Lycée</a></li>
+          </ul>
+        </li>
+        <li>
+          <button>Bac▾</button>
+          <ul>
+            <li><a href="bac-s.html">Bac Scientifiques</a></li>
+            <li><a href="bac-l.html">Bac Littéraires</a></li>
+            <li><a href="bac-t.html">Bac Technique</a></li> 
+            <li><a href="bac-g.html">Bac Gestion</a></li>
+            <li><a href="bac-étrangers.html">Bac Étrangers </a></li>
+          </ul>
+        </li>
+       <li>
+          <button>Exercices ▾</button>
+          <ul>
+            <li><a href="eprimaire.html">Primaire</a></li>
+            <li><a href="ecollege.html">Collège</a></li>
+            <li><a href="elycee.html">Lycée</a></li>
+          </ul>
+           <li><a href="informatique.html">Informatique</a></li>
+        </ul>
+      </li>
+    </nav>
+  </header> 
+ </div>
+
+  <!-- HERO -->
+<div class="hero">
+  <video autoplay muted loop class="video-bg">
+    <source src="Black Illustrated School Logo.mp4" type="video/mp4">
+  </video>
+  <div class="hero-content">
+    <h1></h1>
+    <p></p>
+  </div>
+</div>
+<pdf src="../pdf/main.pdf"></pdf>
+
+   <!-- FOOTER -->
+  <footer>
+    © 2025 Xam Xam - Créé par Serigne Mor Gueye (MOR.TECH)
+    </footer>
+    </body>
+     </html>
+
